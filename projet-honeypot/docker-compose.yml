@@ -1,0 +1,87 @@
+version: '3.8'
+
+services:
+  # Service Honeypot
+  honeypot:
+    build: ./honeypot
+    container_name: cyber_honeypot
+    ports:
+      - "2222:22"    # SSH honeypot
+      - "8080:80"    # HTTP honeypot
+      - "2323:23"    # Telnet honeypot
+    environment:
+      - LOG_LEVEL=INFO
+      - API_URL=http://api:5000  # Communication interne
+      - HONEYPOT_ID=honeypot-001
+    volumes:
+      - ./honeypot/logs:/app/logs
+      - ./honeypot/config:/app/config
+    networks:
+      - honeypot-net
+    depends_on:
+      - api
+    restart: unless-stopped
+
+  # API de collecte
+  api:
+    build: ./api
+    container_name: threat_api
+    ports:
+      - "5000:5000"
+    environment:
+      - DATABASE_URL=postgresql://honeypot_user:honeypot_pass@db:5432/threats_db
+      - FLASK_ENV=development
+      - SECRET_KEY=your-secret-key-change-this
+    volumes:
+      - ./api/logs:/app/logs
+    networks:
+      - honeypot-net
+    depends_on:
+      - db
+    restart: unless-stopped
+
+  # Base de données PostgreSQL
+  db:
+    image: postgres:15-alpine
+    container_name: threats_database
+    environment:
+      - POSTGRES_USER=honeypot_user
+      - POSTGRES_PASSWORD=honeypot_pass
+      - POSTGRES_DB=threats_db
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./api/database/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - honeypot-net
+    restart: unless-stopped
+
+  # Interface web pour voir la DB (optionnel mais pratique)
+  adminer:
+    image: adminer
+    container_name: db_admin
+    ports:
+      - "8081:8080"
+    networks:
+      - honeypot-net
+    depends_on:
+      - db
+
+  # Dashboard de monitoring
+  dashboard:
+    build: ./dashboard
+    container_name: security_dashboard
+    ports:
+      - "3000:80"
+    networks:
+      - honeypot-net
+    depends_on:
+      - api
+    restart: unless-stopped
+
+networks:
+  honeypot-net:
+    driver: bridge
+
+volumes:
+  postgres-data:
+    driver: local

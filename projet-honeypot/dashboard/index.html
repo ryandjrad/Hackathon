@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honeypot Security Dashboard</title>
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* Variables */
+        :root {
+            --bg-primary: #0a0e27;
+            --bg-secondary: #151a3a;
+            --bg-card: #1a1f4a;
+            --text-primary: #e4e8ff;
+            --text-secondary: #a8b2d1;
+            --accent-primary: #00d4ff;
+            --accent-secondary: #ff006e;
+            --success: #00ff88;
+            --warning: #ffaa00;
+            --danger: #ff0040;
+        }
+
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: var(--bg-secondary);
+            padding: 1.5rem 2rem;
+            box-shadow: 0 2px 20px rgba(0, 212, 255, 0.1);
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            color: var(--accent-primary);
+        }
+
+        .status {
+            color: var(--success);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            border-radius: 10px;
+            padding: 1.5rem;
+            border: 1px solid rgba(0, 212, 255, 0.2);
+        }
+
+        .stat-card h3 {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--accent-primary);
+        }
+
+        /* Charts */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .chart-container {
+            background: var(--bg-card);
+            border-radius: 10px;
+            padding: 1.5rem;
+            border: 1px solid rgba(0, 212, 255, 0.2);
+        }
+
+        .chart-container h3 {
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .chart-wrapper {
+            position: relative;
+            height: 300px;
+        }
+
+        /* Table */
+        .table-container {
+            background: var(--bg-card);
+            border-radius: 10px;
+            padding: 1.5rem;
+            border: 1px solid rgba(0, 212, 255, 0.2);
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: var(--bg-secondary);
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+            color: var(--text-secondary);
+        }
+
+        td {
+            padding: 1rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        tr:hover {
+            background: rgba(0, 212, 255, 0.05);
+        }
+
+        .risk-badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .risk-low {
+            background: rgba(0, 255, 136, 0.2);
+            color: var(--success);
+        }
+
+        .risk-medium {
+            background: rgba(255, 170, 0, 0.2);
+            color: var(--warning);
+        }
+
+        .risk-high {
+            background: rgba(255, 0, 64, 0.2);
+            color: var(--danger);
+        }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-secondary);
+        }
+
+        /* Error */
+        .error {
+            background: rgba(255, 0, 64, 0.1);
+            border: 1px solid var(--danger);
+            color: var(--danger);
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        /* Button */
+        .btn {
+            background: var(--accent-primary);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .btn:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <h1><i class="fas fa-shield-alt"></i> Honeypot Security Dashboard</h1>
+            <div class="status">
+                <i class="fas fa-circle"></i>
+                <span id="status">Connexion...</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Error Message -->
+        <div id="error-message" style="display: none;" class="error"></div>
+
+        <!-- Stats Cards -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3><i class="fas fa-exclamation-triangle"></i> Total Threats</h3>
+                <div class="stat-number" id="total-threats">-</div>
+            </div>
+            
+            <div class="stat-card">
+                <h3><i class="fas fa-user-secret"></i> Unique Attackers</h3>
+                <div class="stat-number" id="unique-attackers">-</div>
+            </div>
+            
+            <div class="stat-card">
+                <h3><i class="fas fa-tachometer-alt"></i> Avg Risk Score</h3>
+                <div class="stat-number" id="avg-risk-score">-</div>
+            </div>
+            
+            <div class="stat-card">
+                <h3><i class="fas fa-clock"></i> Last Update</h3>
+                <div class="stat-number" id="last-update" style="font-size: 1.2rem;">-</div>
+            </div>
+        </div>
+
+        <!-- Charts -->
+        <div class="charts-grid">
+            <div class="chart-container">
+                <h3>Attack Timeline (Last 24h)</h3>
+                <div class="chart-wrapper">
+                    <canvas id="timelineChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="chart-container">
+                <h3>Attack Types Distribution</h3>
+                <div class="chart-wrapper">
+                    <canvas id="typesChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Threats Table -->
+        <div class="table-container">
+            <h3 style="margin-bottom: 1rem;">
+                <i class="fas fa-stream"></i> Recent Threats
+                <button class="btn" style="float: right;" onclick="exportData()">
+                    <i class="fas fa-download"></i> Export CSV
+                </button>
+            </h3>
+            
+            <div id="threats-loading" class="loading">Loading threats...</div>
+            
+            <table id="threats-table" style="display: none;">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>IP Address</th>
+                        <th>Service</th>
+                        <th>Attack Type</th>
+                        <th>Risk</th>
+                    </tr>
+                </thead>
+                <tbody id="threats-tbody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        // Configuration
+        const API_URL = 'http://localhost:5000';
+        let timelineChart = null;
+        let typesChart = null;
+
+        // Initialisation
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Dashboard starting...');
+            initCharts();
+            updateDashboard();
+            // Mise à jour toutes les 10 secondes
+            setInterval(updateDashboard, 10000);
+        });
+
+        // Initialiser les graphiques
+        function initCharts() {
+            console.log('Initializing charts...');
+            
+            // Timeline Chart
+            const ctxTimeline = document.getElementById('timelineChart');
+            if (ctxTimeline) {
+                timelineChart = new Chart(ctxTimeline, {
+                    type: 'line',
+                    data: {
+                        labels: [],
+                        datasets: [{
+                            label: 'Attacks',
+                            data: [],
+                            borderColor: '#00d4ff',
+                            backgroundColor: 'rgba(0, 212, 255, 0.1)',
+                            tension: 0.4
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: { display: false }
+                        },
+                        scales: {
+                            y: { 
+                                beginAtZero: true,
+                                ticks: { color: '#a8b2d1' },
+                                grid: { color: 'rgba(255, 255, 255, 0.1)' }
+                            },
+                            x: {
+                                ticks: { color: '#a8b2d1' },
+                                grid: { color: 'rgba(255, 255, 255, 0.1)' }
+                            }
+                        }
+                    }
+                });
+            }
+
+            // Types Chart
+            const ctxTypes = document.getElementById('typesChart');
+            if (ctxTypes) {
+                typesChart = new Chart(ctxTypes, {
+                    type: 'doughnut',
+                    data: {
+                        labels: [],
+                        datasets: [{
+                            data: [],
+                            backgroundColor: [
+                                '#00d4ff',
+                                '#ff006e',
+                                '#00ff88',
+                                '#ffaa00',
+                                '#667eea',
+                                '#764ba2'
+                            ]
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                position: 'bottom',
+                                labels: { color: '#a8b2d1' }
+                            }
+                        }
+                    }
+                });
+            }
+        }
+
+        // Mettre à jour le dashboard
+        async function updateDashboard() {
+            console.log('Updating dashboard...');
+            
+            try {
+                // Récupérer les stats
+                const statsResponse = await fetch(`${API_URL}/api/stats`);
+                if (!statsResponse.ok) throw new Error('Failed to fetch stats');
+                const stats = await statsResponse.json();
+                
+                // Récupérer les menaces
+                const threatsResponse = await fetch(`${API_URL}/api/threats?per_page=50`);
+                if (!threatsResponse.ok) throw new Error('Failed to fetch threats');
+                const threatsData = await threatsResponse.json();
+                
+                // Mettre à jour l'UI
+                updateStats(stats);
+                updateCharts(stats, threatsData.threats);
+                updateThreatsTable(threatsData.threats);
+                
+                // Mettre à jour le statut
+                document.getElementById('status').textContent = 'Connected';
+                document.getElementById('error-message').style.display = 'none';
+                
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('status').textContent = 'Error';
+                showError('Failed to connect to API. Make sure the API is running on port 5000.');
+            }
+        }
+
+        // Mettre à jour les stats
+        function updateStats(stats) {
+            document.getElementById('total-threats').textContent = stats.total_threats || 0;
+            document.getElementById('unique-attackers').textContent = stats.unique_attackers || 0;
+            document.getElementById('avg-risk-score').textContent = 
+                (stats.average_risk_score || 0).toFixed(1);
+            document.getElementById('last-update').textContent = 
+                new Date().toLocaleTimeString();
+        }
+
+        // Mettre à jour les graphiques
+        function updateCharts(stats, threats) {
+            // Timeline
+            if (timelineChart && threats) {
+                const hourlyData = processHourlyData(threats);
+                timelineChart.data.labels = Object.keys(hourlyData);
+                timelineChart.data.datasets[0].data = Object.values(hourlyData);
+                timelineChart.update();
+            }
+
+            // Types
+            if (typesChart && stats.top_attack_types) {
+                typesChart.data.labels = stats.top_attack_types.map(t => t.type);
+                typesChart.data.datasets[0].data = stats.top_attack_types.map(t => t.count);
+                typesChart.update();
+            }
+        }
+
+        // Traiter les données horaires
+        function processHourlyData(threats) {
+            const hourlyData = {};
+            const now = new Date();
+            
+            // Initialiser les 24 dernières heures
+            for (let i = 23; i >= 0; i--) {
+                const hour = new Date(now - i * 60 * 60 * 1000);
+                const key = hour.getHours() + ':00';
+                hourlyData[key] = 0;
+            }
+            
+            // Compter les attaques
+            threats.forEach(threat => {
+                const date = new Date(threat.timestamp);
+                const key = date.getHours() + ':00';
+                if (hourlyData[key] !== undefined) {
+                    hourlyData[key]++;
+                }
+            });
+            
+            return hourlyData;
+        }
+
+        // Mettre à jour la table
+        function updateThreatsTable(threats) {
+            const tbody = document.getElementById('threats-tbody');
+            const table = document.getElementById('threats-table');
+            const loading = document.getElementById('threats-loading');
+            
+            if (!threats || threats.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="5" style="text-align: center;">No threats detected</td></tr>';
+            } else {
+                tbody.innerHTML = threats.slice(0, 20).map(threat => {
+                    const time = new Date(threat.timestamp).toLocaleTimeString();
+                    const riskClass = threat.risk_score < 4 ? 'low' : 
+                                     threat.risk_score < 7 ? 'medium' : 'high';
+                    
+                    return `
+                        <tr>
+                            <td>${time}</td>
+                            <td>${threat.attacker_ip}</td>
+                            <td>${threat.service.toUpperCase()}</td>
+                            <td>${formatAttackType(threat.attack_type)}</td>
+                            <td><span class="risk-badge risk-${riskClass}">${threat.risk_score}/10</span></td>
+                        </tr>
+                    `;
+                }).join('');
+            }
+            
+            loading.style.display = 'none';
+            table.style.display = 'table';
+        }
+
+        // Formater le type d'attaque
+        function formatAttackType(type) {
+            return type.split('_').map(word => 
+                word.charAt(0).toUpperCase() + word.slice(1)
+            ).join(' ');
+        }
+
+        // Afficher une erreur
+        function showError(message) {
+            const errorDiv = document.getElementById('error-message');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+        }
+
+        // Export CSV
+        async function exportData() {
+            try {
+                const response = await fetch(`${API_URL}/api/threats?per_page=1000`);
+                const data = await response.json();
+                
+                // Créer le CSV
+                const headers = ['Timestamp', 'IP', 'Service', 'Attack Type', 'Risk Score'];
+                const rows = data.threats.map(t => [
+                    t.timestamp,
+                    t.attacker_ip,
+                    t.service,
+                    t.attack_type,
+                    t.risk_score
+                ]);
+                
+                const csv = [headers, ...rows]
+                    .map(row => row.map(cell => `"${cell}"`).join(','))
+                    .join('\n');
+                
+                // Download
+                const blob = new Blob([csv], { type: 'text/csv' });
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `threats_${new Date().toISOString().split('T')[0]}.csv`;
+                a.click();
+                
+                alert('Export successful!');
+            } catch (error) {
+                alert('Export failed: ' + error.message);
+            }
+        }
+    </script>
+</body>
+</html>

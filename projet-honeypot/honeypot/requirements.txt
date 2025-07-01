@@ -1,0 +1,26 @@
+# Core dependencies
+aiohttp==3.9.1        # Serveur HTTP asynchrone et client HTTP
+aiofiles==23.2.1      # Gestion asynchrone des fichiers
+
+# Environment and configuration
+python-dotenv==1.0.0  # Chargement des variables d'environnement
+
+# Optional but useful
+geoip2==4.7.0         # Géolocalisation des IP attaquantes (optionnel)
+maxminddb==2.4.0      # Base de données GeoIP
+
+# Security and validation
+cryptography==41.0.7  # Pour le chiffrement si nécessaire
+pyyaml==6.0.1        # Pour les fichiers de config YAML
+
+# Logging enhancements
+python-json-logger==2.0.7  # Logs structurés en JSON
+
+# Performance monitoring (optional)
+psutil==5.9.6        # Monitoring des ressources système
+
+# Development dependencies (optional)
+# pytest==7.4.3
+# pytest-asyncio==0.21.1
+# black==23.11.0
+# flake8==6.1.0

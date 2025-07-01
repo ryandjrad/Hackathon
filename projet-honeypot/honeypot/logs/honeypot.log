@@ -1,0 +1,1895 @@
+2025-07-01 14:20:45,918 - honeypot - INFO - Starting Honeypot honeypot-001
+2025-07-01 14:20:45,919 - honeypot - INFO - API endpoint: http://api:5000
+2025-07-01 14:20:45,920 - honeypot - INFO - Service ssh scheduled to start
+2025-07-01 14:20:45,921 - honeypot - INFO - Service http scheduled to start
+2025-07-01 14:20:45,921 - honeypot - INFO - Service telnet scheduled to start
+2025-07-01 14:20:45,924 - honeypot - INFO - SSH Honeypot started on port 22
+2025-07-01 14:20:45,924 - honeypot - INFO - HTTP Honeypot started on port 80
+2025-07-01 14:20:45,925 - honeypot - INFO - Telnet Honeypot started on port 23
+2025-07-01 14:20:49,815 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:20:49,816 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:20:49 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:20:49,841 - honeypot - ERROR - Failed to send to API: Cannot connect to host api:5000 ssl:default [Connect call failed ('172.19.0.4', 5000)]
+2025-07-01 14:21:19,871 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:21:19,872 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:21:19 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:21:25,874 - honeypot - ERROR - Failed to send to API: 
+2025-07-01 14:21:49,939 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:21:49,940 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:21:49 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:21:49,944 - honeypot - ERROR - Failed to send to API: Cannot connect to host api:5000 ssl:default [Connect call failed ('172.19.0.4', 5000)]
+2025-07-01 14:22:19,989 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:22:19,990 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:22:19 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:22:25,875 - honeypot - ERROR - Failed to send to API: 
+2025-07-01 14:22:50,028 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:22:50,029 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:22:50 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:22:55,873 - honeypot - ERROR - Failed to send to API: 
+2025-07-01 14:25:18,915 - honeypot - INFO - Starting Honeypot honeypot-001
+2025-07-01 14:25:18,915 - honeypot - INFO - API endpoint: http://api:5000
+2025-07-01 14:25:18,916 - honeypot - INFO - Service ssh scheduled to start
+2025-07-01 14:25:18,916 - honeypot - INFO - Service http scheduled to start
+2025-07-01 14:25:18,916 - honeypot - INFO - Service telnet scheduled to start
+2025-07-01 14:25:18,918 - honeypot - INFO - SSH Honeypot started on port 22
+2025-07-01 14:25:18,918 - honeypot - INFO - HTTP Honeypot started on port 80
+2025-07-01 14:25:18,918 - honeypot - INFO - Telnet Honeypot started on port 23
+2025-07-01 14:25:23,311 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:25:23,311 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:25:23 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:25:28,865 - honeypot - ERROR - Failed to send to API: 
+2025-07-01 14:25:53,350 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:25:53,351 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:25:53 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:25:58,864 - honeypot - ERROR - Failed to send to API: 
+2025-07-01 14:26:23,396 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:26:23,397 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:26:23 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:26:28,864 - honeypot - ERROR - Failed to send to API: 
+2025-07-01 14:26:53,446 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:26:53,447 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:26:53 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:26:58,861 - honeypot - ERROR - Failed to send to API: 
+2025-07-01 14:27:23,494 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:27:23,495 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:27:23 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:27:28,860 - honeypot - ERROR - Failed to send to API: 
+2025-07-01 14:27:53,536 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:27:53,536 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:27:53 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:27:58,858 - honeypot - ERROR - Failed to send to API: 
+2025-07-01 14:28:23,584 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:28:23,585 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:28:23 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:28:28,857 - honeypot - ERROR - Failed to send to API: 
+2025-07-01 14:28:53,630 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:28:53,631 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:28:53 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:28:58,855 - honeypot - ERROR - Failed to send to API: 
+2025-07-01 14:29:23,679 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:29:23,680 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:29:23 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:29:28,853 - honeypot - ERROR - Failed to send to API: 
+2025-07-01 14:29:44,267 - honeypot - INFO - Starting Honeypot honeypot-001
+2025-07-01 14:29:44,267 - honeypot - INFO - API endpoint: http://api:5000
+2025-07-01 14:29:44,267 - honeypot - INFO - Service ssh scheduled to start
+2025-07-01 14:29:44,268 - honeypot - INFO - Service http scheduled to start
+2025-07-01 14:29:44,268 - honeypot - INFO - Service telnet scheduled to start
+2025-07-01 14:29:44,269 - honeypot - INFO - SSH Honeypot started on port 22
+2025-07-01 14:29:44,270 - honeypot - INFO - HTTP Honeypot started on port 80
+2025-07-01 14:29:44,270 - honeypot - INFO - Telnet Honeypot started on port 23
+2025-07-01 14:29:48,650 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:29:48,650 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:29:48 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:29:48,678 - honeypot - WARNING - API returned status 500
+2025-07-01 14:30:18,690 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:30:18,691 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:30:18 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:30:18,699 - honeypot - WARNING - API returned status 500
+2025-07-01 14:30:48,735 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:30:48,736 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:30:48 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:30:48,743 - honeypot - WARNING - API returned status 500
+2025-07-01 14:31:18,797 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:31:18,798 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:31:18 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:31:18,807 - honeypot - WARNING - API returned status 500
+2025-07-01 14:31:48,845 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:31:48,846 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:31:48 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:31:48,854 - honeypot - WARNING - API returned status 500
+2025-07-01 14:32:18,894 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:32:18,894 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:32:18 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:32:18,903 - honeypot - WARNING - API returned status 500
+2025-07-01 14:32:48,932 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:32:48,933 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:32:48 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:32:48,945 - honeypot - WARNING - API returned status 500
+2025-07-01 14:32:57,507 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:50006 - Type: brute_force
+2025-07-01 14:32:57,510 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:32:57,513 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:32:57 +0000] "GET / HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:32:57,519 - honeypot - WARNING - API returned status 500
+2025-07-01 14:32:57,524 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:32:57,525 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:32:57 +0000] "GET /admin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:32:57,533 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:32:57,534 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:32:57 +0000] "GET /login?user='%20OR%201=1-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:32:57,535 - honeypot - WARNING - API returned status 500
+2025-07-01 14:32:57,542 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:37178 - Type: brute_force
+2025-07-01 14:32:57,544 - honeypot - WARNING - API returned status 500
+2025-07-01 14:32:57,551 - honeypot - WARNING - API returned status 500
+2025-07-01 14:33:18,977 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:33:18,978 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:33:18 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:33:18,986 - honeypot - WARNING - API returned status 500
+2025-07-01 14:33:49,015 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:33:49,016 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:33:49 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:33:49,022 - honeypot - WARNING - API returned status 500
+2025-07-01 14:34:19,061 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:34:19,062 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:34:19 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:34:19,074 - honeypot - WARNING - API returned status 500
+2025-07-01 14:34:49,100 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:34:49,101 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:34:49 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:34:49,108 - honeypot - WARNING - API returned status 500
+2025-07-01 14:37:59,263 - honeypot - INFO - Starting Honeypot honeypot-001
+2025-07-01 14:37:59,263 - honeypot - INFO - API endpoint: http://api:5000
+2025-07-01 14:37:59,264 - honeypot - INFO - Service ssh scheduled to start
+2025-07-01 14:37:59,264 - honeypot - INFO - Service http scheduled to start
+2025-07-01 14:37:59,264 - honeypot - INFO - Service telnet scheduled to start
+2025-07-01 14:37:59,266 - honeypot - INFO - SSH Honeypot started on port 22
+2025-07-01 14:37:59,266 - honeypot - INFO - HTTP Honeypot started on port 80
+2025-07-01 14:37:59,266 - honeypot - INFO - Telnet Honeypot started on port 23
+2025-07-01 14:38:03,472 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:38:03,473 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:38:03 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:38:03,513 - honeypot - WARNING - API returned status 500
+2025-07-01 14:38:33,520 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:38:33,521 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:38:33 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:38:33,531 - honeypot - WARNING - API returned status 500
+2025-07-01 14:39:03,563 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:39:03,564 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:39:03 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:39:03,573 - honeypot - WARNING - API returned status 500
+2025-07-01 14:39:33,602 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:39:33,603 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:39:33 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:39:33,610 - honeypot - WARNING - API returned status 500
+2025-07-01 14:39:39,957 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59724 - Type: brute_force
+2025-07-01 14:39:39,960 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:39:39,978 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:39:39 +0000] "GET / HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:39:39,986 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:39:39,987 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:39:39 +0000] "GET /admin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:39:39,988 - honeypot - WARNING - API returned status 500
+2025-07-01 14:39:39,996 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:39:39,997 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:39:39 +0000] "GET /login?user='%20OR%201=1-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:39:39,998 - honeypot - WARNING - API returned status 500
+2025-07-01 14:39:40,008 - honeypot - WARNING - API returned status 500
+2025-07-01 14:39:40,025 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:60458 - Type: brute_force
+2025-07-01 14:39:40,034 - honeypot - WARNING - API returned status 500
+2025-07-01 14:40:03,654 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:40:03,655 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:40:03 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:40:03,661 - honeypot - WARNING - API returned status 500
+2025-07-01 14:40:33,697 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:40:33,698 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:40:33 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:40:33,705 - honeypot - WARNING - API returned status 500
+2025-07-01 14:40:48,803 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:40:48,803 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:40:48 +0000] "GET /admin HTTP/1.1" 401 212 "-" "curl/8.9.1"
+2025-07-01 14:40:48,812 - honeypot - WARNING - API returned status 500
+2025-07-01 14:40:53,205 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:40:53,207 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:40:53 +0000] "GET /wp-admi HTTP/1.1" 500 245 "-" "curl/8.9.1"
+2025-07-01 14:40:57,118 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:40:57,119 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:40:57 +0000] "GET /.env HTTP/1.1" 401 212 "-" "curl/8.9.1"
+2025-07-01 14:40:57,128 - honeypot - WARNING - API returned status 500
+2025-07-01 14:41:00,952 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:41:00,954 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:41:00 +0000] "GET /phpmyadmin HTTP/1.1" 401 212 "-" "curl/8.9.1"
+2025-07-01 14:41:00,968 - honeypot - WARNING - API returned status 500
+2025-07-01 14:41:03,754 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:41:03,755 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:41:03 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:41:03,764 - honeypot - WARNING - API returned status 500
+2025-07-01 14:41:09,225 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:41:09,226 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:41:09 +0000] "GET /login?user=admin'+OR+1=1-- HTTP/1.1" 401 212 "-" "curl/8.9.1"
+2025-07-01 14:41:09,234 - honeypot - WARNING - API returned status 500
+2025-07-01 14:41:12,546 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:41:12,548 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:41:12 +0000] "GET /search?q=test'+UNION+SELECT+*+FROM+users-- HTTP/1.1" 500 245 "-" "curl/8.9.1"
+2025-07-01 14:41:22,102 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:41:22,104 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:41:22 +0000] "GET /etc/passwd HTTP/1.1" 500 245 "-" "curl/8.9.1"
+2025-07-01 14:41:26,317 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:41:26,318 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:41:26 +0000] "GET /config.php HTTP/1.1" 401 212 "-" "curl/8.9.1"
+2025-07-01 14:41:26,326 - honeypot - WARNING - API returned status 500
+2025-07-01 14:41:28,864 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:60374 - Type: brute_force
+2025-07-01 14:41:28,872 - honeypot - WARNING - API returned status 500
+2025-07-01 14:41:33,804 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:41:33,805 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:41:33 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:41:33,813 - honeypot - WARNING - API returned status 500
+2025-07-01 14:41:43,110 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:54600 - Type: brute_force
+2025-07-01 14:41:43,112 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:41:43,114 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:41:43 +0000] "GET / HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:41:43,124 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:41:43,124 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:41:43 +0000] "GET /admin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:41:43,126 - honeypot - WARNING - API returned status 500
+2025-07-01 14:41:43,134 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:41:43,134 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:41:43 +0000] "GET /login?user='%20OR%201=1-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:41:43,135 - honeypot - WARNING - API returned status 500
+2025-07-01 14:41:43,144 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:52484 - Type: brute_force
+2025-07-01 14:41:43,145 - honeypot - WARNING - API returned status 500
+2025-07-01 14:41:43,152 - honeypot - WARNING - API returned status 500
+2025-07-01 14:42:03,861 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:42:03,862 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:42:03 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:42:03,868 - honeypot - WARNING - API returned status 500
+2025-07-01 14:42:33,909 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:42:33,910 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:42:33 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:42:33,918 - honeypot - WARNING - API returned status 500
+2025-07-01 14:43:03,960 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:43:03,961 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:43:03 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:43:03,971 - honeypot - WARNING - API returned status 500
+2025-07-01 14:43:34,011 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:43:34,012 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:43:34 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:43:34,021 - honeypot - WARNING - API returned status 500
+2025-07-01 14:43:47,011 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:43:47,012 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:43:47 +0000] "GET / HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:43:48,753 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:43:48,754 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:43:48 +0000] "GET /admin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:43:48,759 - honeypot - WARNING - API returned status 500
+2025-07-01 14:43:49,355 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:43:49,356 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:43:49 +0000] "GET /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:43:49,361 - honeypot - WARNING - API returned status 500
+2025-07-01 14:43:50,817 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:43:50,818 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:43:50 +0000] "GET /wp-admin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:43:50,824 - honeypot - WARNING - API returned status 500
+2025-07-01 14:43:51,519 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:43:51,519 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:43:51 +0000] "GET /phpmyadmin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:43:51,525 - honeypot - WARNING - API returned status 500
+2025-07-01 14:43:52,788 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:43:52,788 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:43:52 +0000] "GET /.env HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:43:52,794 - honeypot - WARNING - API returned status 500
+2025-07-01 14:43:53,675 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:43:53,676 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:43:53 +0000] "GET /config.php HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:43:53,682 - honeypot - WARNING - API returned status 500
+2025-07-01 14:43:54,512 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:43:54,512 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:43:54 +0000] "GET /backup.sql HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:43:54,519 - honeypot - WARNING - API returned status 500
+2025-07-01 14:43:56,331 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:43:56,332 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:43:56 +0000] "GET /.git HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:43:57,309 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:43:57,310 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:43:57 +0000] "GET /api/v1/users HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:43:58,690 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:43:58,692 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:43:58 +0000] "GET /dashboard HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:43:59,386 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:43:59,388 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:43:59 +0000] "GET /cpanel HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:44:02,767 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:44:02,768 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:44:02 +0000] "GET /login?user='%20OR%20'1'='1 HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:44:02,775 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:44:02,775 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:44:02 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:44:02,776 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:02,781 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:04,050 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:44:04,050 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:44:04 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:44:04,056 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:05,132 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:44:05,133 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:44:05 +0000] "GET /login?user='%20OR%201=1-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:44:05,139 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:44:05,140 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:44:05 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:44:05,140 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:05,146 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:07,623 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:44:07,623 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:44:07 +0000] "GET /login?user=admin'%20AND%201=1 HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:44:07,629 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:44:07,630 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:44:07 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:44:07,631 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:07,636 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:08,727 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:44:08,728 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:44:08 +0000] "GET /login?user='%20UNION%20SELECT%20*%20FROM%20users-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:44:08,734 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:44:08,734 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:44:08 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:44:08,735 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:08,740 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:11,576 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:44:11,577 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:44:11 +0000] "GET /login?user=';%20DROP%20TABLE%20users;-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:44:11,583 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:44:11,584 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:44:11 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:44:11,585 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:11,591 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:15,180 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:44:15,181 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:44:15 +0000] "POST /execute HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:44:16,434 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:44:16,435 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:44:16 +0000] "POST /execute HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:44:17,768 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:44:17,769 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:44:17 +0000] "POST /execute HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:44:19,618 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:44:19,619 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:44:19 +0000] "POST /execute HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:44:21,330 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:44:21,331 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:44:21 +0000] "POST /execute HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:44:25,126 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:44:25,127 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:44:25 +0000] "GET /etc/passwd HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:44:26,556 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:44:26,557 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:44:26 +0000] "GET /config.php HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 14:44:26,563 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:27,161 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:44:27,163 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:44:27 +0000] "GET /download?file=../../../etc/shadow HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:44:27,990 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:44:27,991 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:44:27 +0000] "GET /var/log/apache/access.log HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:44:30,747 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:44636 - Type: brute_force
+2025-07-01 14:44:30,755 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:31,337 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:44638 - Type: brute_force
+2025-07-01 14:44:31,346 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:32,362 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:44652 - Type: brute_force
+2025-07-01 14:44:32,368 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:34,034 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:44326 - Type: brute_force
+2025-07-01 14:44:34,044 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:34,109 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:44:34,110 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:44:34 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:44:34,120 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:34,623 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:44340 - Type: brute_force
+2025-07-01 14:44:34,630 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:36,426 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:44344 - Type: brute_force
+2025-07-01 14:44:36,432 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:37,631 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:44348 - Type: brute_force
+2025-07-01 14:44:37,640 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:39,149 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:44360 - Type: brute_force
+2025-07-01 14:44:39,155 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:40,280 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:44366 - Type: brute_force
+2025-07-01 14:44:40,287 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:41,177 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:44376 - Type: brute_force
+2025-07-01 14:44:41,183 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:43,121 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:44388 - Type: brute_force
+2025-07-01 14:44:43,126 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:44,210 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:48684 - Type: brute_force
+2025-07-01 14:44:44,216 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:45,343 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:48694 - Type: brute_force
+2025-07-01 14:44:45,349 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:46,744 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:48710 - Type: brute_force
+2025-07-01 14:44:46,750 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:47,270 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:48712 - Type: brute_force
+2025-07-01 14:44:47,276 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:48,526 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:48716 - Type: brute_force
+2025-07-01 14:44:48,532 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:50,045 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:48724 - Type: brute_force
+2025-07-01 14:44:50,050 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:51,105 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:48732 - Type: brute_force
+2025-07-01 14:44:51,111 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:52,585 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:48742 - Type: brute_force
+2025-07-01 14:44:52,591 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:53,872 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:48748 - Type: brute_force
+2025-07-01 14:44:53,878 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:55,044 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36048 - Type: brute_force
+2025-07-01 14:44:55,049 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:56,162 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36050 - Type: brute_force
+2025-07-01 14:44:56,168 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:57,061 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36056 - Type: brute_force
+2025-07-01 14:44:57,067 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:58,544 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36066 - Type: brute_force
+2025-07-01 14:44:58,550 - honeypot - WARNING - API returned status 500
+2025-07-01 14:44:59,563 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36082 - Type: brute_force
+2025-07-01 14:44:59,569 - honeypot - WARNING - API returned status 500
+2025-07-01 14:45:00,764 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36096 - Type: brute_force
+2025-07-01 14:45:00,769 - honeypot - WARNING - API returned status 500
+2025-07-01 14:45:02,552 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36104 - Type: brute_force
+2025-07-01 14:45:02,559 - honeypot - WARNING - API returned status 500
+2025-07-01 14:45:04,142 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:53230 - Type: brute_force
+2025-07-01 14:45:04,149 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:45:04,149 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:45:04 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:45:04,150 - honeypot - WARNING - API returned status 500
+2025-07-01 14:45:04,155 - honeypot - WARNING - API returned status 500
+2025-07-01 14:45:05,758 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:53242 - Type: brute_force
+2025-07-01 14:45:05,764 - honeypot - WARNING - API returned status 500
+2025-07-01 14:45:06,549 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:53254 - Type: brute_force
+2025-07-01 14:45:06,554 - honeypot - WARNING - API returned status 500
+2025-07-01 14:45:07,486 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:53264 - Type: brute_force
+2025-07-01 14:45:07,492 - honeypot - WARNING - API returned status 500
+2025-07-01 14:45:08,092 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:53278 - Type: brute_force
+2025-07-01 14:45:08,098 - honeypot - WARNING - API returned status 500
+2025-07-01 14:45:09,571 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:53294 - Type: brute_force
+2025-07-01 14:45:09,579 - honeypot - WARNING - API returned status 500
+2025-07-01 14:45:10,678 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:53296 - Type: brute_force
+2025-07-01 14:45:10,684 - honeypot - WARNING - API returned status 500
+2025-07-01 14:45:11,610 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:53306 - Type: brute_force
+2025-07-01 14:45:11,617 - honeypot - WARNING - API returned status 500
+2025-07-01 14:45:12,919 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:53316 - Type: brute_force
+2025-07-01 14:45:12,925 - honeypot - WARNING - API returned status 500
+2025-07-01 14:45:16,397 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:33764 - Type: brute_force
+2025-07-01 14:45:16,403 - honeypot - WARNING - API returned status 500
+2025-07-01 14:45:18,863 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:33778 - Type: brute_force
+2025-07-01 14:45:18,869 - honeypot - WARNING - API returned status 500
+2025-07-01 14:45:20,918 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:33786 - Type: brute_force
+2025-07-01 14:45:20,924 - honeypot - WARNING - API returned status 500
+2025-07-01 14:45:23,056 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:33800 - Type: brute_force
+2025-07-01 14:45:23,063 - honeypot - WARNING - API returned status 500
+2025-07-01 14:45:25,426 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:43706 - Type: brute_force
+2025-07-01 14:45:25,435 - honeypot - WARNING - API returned status 500
+2025-07-01 14:45:27,140 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:43716 - Type: brute_force
+2025-07-01 14:45:27,150 - honeypot - WARNING - API returned status 500
+2025-07-01 14:45:30,870 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:45:30,872 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:45:30 +0000] "GET / HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:45:30,978 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:45:30,980 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:45:30 +0000] "GET / HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:45:31,087 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:45:31,089 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:45:31 +0000] "GET / HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:45:31,195 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:45:31,196 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:45:31 +0000] "GET / HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:45:31,307 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:45:31,309 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:45:31 +0000] "GET / HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:45:31,415 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:45:31,418 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:45:31 +0000] "GET / HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:45:31,524 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:45:31,526 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:45:31 +0000] "GET / HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:45:31,630 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:45:31,631 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:45:31 +0000] "GET / HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:45:31,754 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:45:31,756 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:45:31 +0000] "GET / HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:45:31,865 - aiohttp.server - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 185, in handle_request
+    elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
+                        ^^^^^^^^^^^
+  File "aiohttp/_helpers.pyx", line 26, in aiohttp._helpers.reify.__get__
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/web_request.py", line 451, in url
+    url = URL.build(scheme=self.scheme, host=self.host)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 441, in build
+    _host = _encode_host(host, validate_host=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/yarl/_url.py", line 1536, in _encode_host
+    raise ValueError(
+ValueError: Host 'localhost:8080' cannot contain ':' (at position 9)
+2025-07-01 14:45:31,866 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:45:31 +0000] "GET / HTTP/1.1" 500 245 "-" "python-requests/2.31.0"
+2025-07-01 14:45:34,200 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:45:34,201 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:45:34 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:45:34,210 - honeypot - WARNING - API returned status 500
+2025-07-01 14:46:04,256 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:46:04,257 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:46:04 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:46:04,265 - honeypot - WARNING - API returned status 500
+2025-07-01 14:46:34,305 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:46:34,306 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:46:34 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:46:34,314 - honeypot - WARNING - API returned status 500
+2025-07-01 14:47:04,380 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:47:04,381 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:47:04 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:47:04,392 - honeypot - WARNING - API returned status 500
+2025-07-01 14:47:34,428 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:47:34,428 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:47:34 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:47:34,436 - honeypot - WARNING - API returned status 500
+2025-07-01 14:48:04,470 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:48:04,470 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:48:04 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:48:04,479 - honeypot - WARNING - API returned status 500
+2025-07-01 14:48:34,514 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:48:34,515 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:48:34 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:48:34,521 - honeypot - WARNING - API returned status 500
+2025-07-01 14:49:04,558 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:49:04,559 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:49:04 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:49:04,566 - honeypot - WARNING - API returned status 500
+2025-07-01 14:49:34,602 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:49:34,603 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:49:34 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:49:34,615 - honeypot - WARNING - API returned status 500
+2025-07-01 14:50:04,665 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:50:04,665 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:50:04 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:50:04,672 - honeypot - WARNING - API returned status 500
+2025-07-01 14:50:34,709 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:50:34,710 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:50:34 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:50:34,718 - honeypot - WARNING - API returned status 500
+2025-07-01 14:51:04,758 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:51:04,759 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:51:04 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:51:04,769 - honeypot - WARNING - API returned status 500
+2025-07-01 14:51:34,807 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:51:34,808 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:51:34 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:51:34,817 - honeypot - WARNING - API returned status 500
+2025-07-01 14:52:04,868 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:52:04,869 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:52:04 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:52:04,879 - honeypot - WARNING - API returned status 500
+2025-07-01 14:52:34,917 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:52:34,918 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:52:34 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:52:34,927 - honeypot - WARNING - API returned status 500
+2025-07-01 14:53:04,964 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:53:04,965 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:53:04 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:53:04,972 - honeypot - WARNING - API returned status 500
+2025-07-01 14:53:35,019 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:53:35,019 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:53:35 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:53:35,029 - honeypot - WARNING - API returned status 500
+2025-07-01 14:54:05,066 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:54:05,066 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:54:05 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:54:05,073 - honeypot - WARNING - API returned status 500
+2025-07-01 14:54:35,131 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:54:35,132 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:54:35 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:54:35,143 - honeypot - WARNING - API returned status 500
+2025-07-01 14:55:05,183 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:55:05,184 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:55:05 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:55:05,193 - honeypot - WARNING - API returned status 500
+2025-07-01 14:55:35,231 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:55:35,232 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:55:35 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:55:35,241 - honeypot - WARNING - API returned status 500
+2025-07-01 14:56:05,285 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:56:05,286 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:56:05 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:56:05,294 - honeypot - WARNING - API returned status 500
+2025-07-01 14:56:35,326 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:56:35,326 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:56:35 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:56:35,332 - honeypot - WARNING - API returned status 500
+2025-07-01 14:57:05,369 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:57:05,370 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:57:05 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:57:05,378 - honeypot - WARNING - API returned status 500
+2025-07-01 14:57:35,407 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:57:35,407 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:57:35 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:57:35,413 - honeypot - WARNING - API returned status 500
+2025-07-01 14:58:05,444 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:58:05,445 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:58:05 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:58:05,451 - honeypot - WARNING - API returned status 500
+2025-07-01 14:58:35,491 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:58:35,491 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:58:35 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:58:35,498 - honeypot - WARNING - API returned status 500
+2025-07-01 14:59:07,094 - honeypot - INFO - Starting Honeypot honeypot-001
+2025-07-01 14:59:07,094 - honeypot - INFO - API endpoint: http://api:5000
+2025-07-01 14:59:07,095 - honeypot - INFO - Service ssh scheduled to start
+2025-07-01 14:59:07,095 - honeypot - INFO - Service http scheduled to start
+2025-07-01 14:59:07,095 - honeypot - INFO - Service telnet scheduled to start
+2025-07-01 14:59:07,097 - honeypot - INFO - SSH Honeypot started on port 22
+2025-07-01 14:59:07,097 - honeypot - INFO - HTTP Honeypot started on port 80
+2025-07-01 14:59:07,098 - honeypot - INFO - Telnet Honeypot started on port 23
+2025-07-01 14:59:11,288 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:59:11,289 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:59:11 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:59:11,312 - honeypot - WARNING - API returned status 500
+2025-07-01 14:59:20,552 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:59:20,553 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:59:20 +0000] "GET /admin HTTP/1.1" 401 212 "-" "curl/8.9.1"
+2025-07-01 14:59:20,559 - honeypot - WARNING - API returned status 500
+2025-07-01 14:59:41,353 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 14:59:41,354 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:14:59:41 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 14:59:41,363 - honeypot - WARNING - API returned status 500
+2025-07-01 14:59:48,355 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:59:48,356 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:59:48 +0000] "GET /admin HTTP/1.1" 401 212 "-" "curl/8.9.1"
+2025-07-01 14:59:48,363 - honeypot - WARNING - API returned status 500
+2025-07-01 14:59:52,542 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 14:59:52,543 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:14:59:52 +0000] "GET /login?user=admin'+UNION+SELECT+*-- HTTP/1.1" 401 212 "-" "curl/8.9.1"
+2025-07-01 14:59:52,550 - honeypot - WARNING - API returned status 500
+2025-07-01 15:00:11,401 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 15:00:11,401 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:00:11 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:00:11,409 - honeypot - WARNING - API returned status 500
+2025-07-01 15:00:41,462 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 15:00:41,463 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:00:41 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:00:41,473 - honeypot - WARNING - API returned status 500
+2025-07-01 15:01:11,505 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 15:01:11,506 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:01:11 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:01:11,512 - honeypot - WARNING - API returned status 500
+2025-07-01 15:01:41,562 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 15:01:41,563 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:01:41 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:01:41,571 - honeypot - WARNING - API returned status 500
+2025-07-01 15:02:11,610 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 15:02:11,610 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:02:11 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:02:11,617 - honeypot - WARNING - API returned status 500
+2025-07-01 15:02:41,714 - honeypot - INFO - [http] Attack detected from 127.0.0.1:0 - Type: reconnaissance
+2025-07-01 15:02:41,715 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:02:41 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:02:41,726 - honeypot - WARNING - API returned status 500
+2025-07-01 15:04:25,308 - honeypot - INFO - Starting Honeypot honeypot-001
+2025-07-01 15:04:25,308 - honeypot - INFO - API endpoint: http://api:5000
+2025-07-01 15:04:25,309 - honeypot - INFO - Service ssh scheduled to start
+2025-07-01 15:04:25,309 - honeypot - INFO - Service http scheduled to start
+2025-07-01 15:04:25,309 - honeypot - INFO - Service telnet scheduled to start
+2025-07-01 15:04:25,311 - honeypot - INFO - SSH Honeypot started on port 22
+2025-07-01 15:04:25,311 - honeypot - INFO - HTTP Honeypot started on port 80
+2025-07-01 15:04:25,311 - honeypot - INFO - Telnet Honeypot started on port 23
+2025-07-01 15:04:29,654 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:04:29 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:04:59,697 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:04:59 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:05:11,238 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:05:11,239 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:05:11 +0000] "GET /admin HTTP/1.1" 401 212 "-" "curl/8.9.1"
+2025-07-01 15:05:29,734 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:05:29 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:05:59,773 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:05:59 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:06:22,849 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:06:22,850 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:22 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:06:24,283 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:06:24,284 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:24 +0000] "GET /admin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:06:26,148 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:06:26,149 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:26 +0000] "GET /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:06:28,155 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:06:28,156 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:28 +0000] "GET /wp-admin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:06:29,617 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:06:29,618 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:29 +0000] "GET /phpmyadmin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:06:29,809 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:06:29 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:06:30,410 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:06:30,410 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:30 +0000] "GET /.env HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:06:32,255 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:06:32,256 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:32 +0000] "GET /config.php HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:06:33,872 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:06:33,873 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:33 +0000] "GET /backup.sql HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:06:35,817 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:06:35,818 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:35 +0000] "GET /.git HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:06:36,528 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:06:36,529 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:36 +0000] "GET /api/v1/users HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:06:37,214 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:06:37,214 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:37 +0000] "GET /dashboard HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:06:38,848 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:06:38,849 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:38 +0000] "GET /cpanel HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:06:42,079 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:06:42,079 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:42 +0000] "GET /login?user='%20OR%20'1'='1 HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:06:42,086 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:06:42,087 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:42 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:06:43,496 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:06:43,496 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:43 +0000] "GET /login?user='%20OR%201=1-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:06:43,502 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:06:43,503 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:43 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:06:46,001 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:06:46,001 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:45 +0000] "GET /login?user=admin'%20AND%201=1 HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:06:46,009 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:06:46,009 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:46 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:06:48,414 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:06:48,415 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:48 +0000] "GET /login?user='%20UNION%20SELECT%20*%20FROM%20users-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:06:48,422 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:06:48,422 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:48 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:06:51,188 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:06:51,188 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:51 +0000] "GET /login?user=';%20DROP%20TABLE%20users;-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:06:51,195 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:06:51,195 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:51 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:06:54,909 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 15:06:54,910 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:54 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:06:56,385 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 15:06:56,386 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:56 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:06:57,487 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 15:06:57,488 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:57 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:06:59,414 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 15:06:59,415 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:06:59 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:06:59,844 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:06:59 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:07:00,533 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 15:07:00,533 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:07:00 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:07:03,917 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:07:03,918 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:07:03 +0000] "GET /etc/passwd HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:07:04,817 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:07:04,818 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:07:04 +0000] "GET /config.php HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:07:05,392 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:07:05,393 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:07:05 +0000] "GET /download?file=../../../etc/shadow HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:07:06,357 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:07:06,357 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:07:06 +0000] "GET /var/log/apache/access.log HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:07:09,261 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:56450 - Type: brute_force
+2025-07-01 15:07:10,533 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:56452 - Type: brute_force
+2025-07-01 15:07:12,250 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:56456 - Type: brute_force
+2025-07-01 15:07:13,074 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:56472 - Type: brute_force
+2025-07-01 15:07:14,129 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:34934 - Type: brute_force
+2025-07-01 15:07:15,288 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:34942 - Type: brute_force
+2025-07-01 15:07:16,321 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:34958 - Type: brute_force
+2025-07-01 15:07:17,194 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:34962 - Type: brute_force
+2025-07-01 15:07:18,877 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:34972 - Type: brute_force
+2025-07-01 15:07:20,395 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:34978 - Type: brute_force
+2025-07-01 15:07:22,216 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:34988 - Type: brute_force
+2025-07-01 15:07:23,204 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:35002 - Type: brute_force
+2025-07-01 15:07:24,668 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:39550 - Type: brute_force
+2025-07-01 15:07:26,538 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:39558 - Type: brute_force
+2025-07-01 15:07:28,111 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:39566 - Type: brute_force
+2025-07-01 15:07:29,543 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:39574 - Type: brute_force
+2025-07-01 15:07:29,881 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:07:29 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:07:30,892 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:39588 - Type: brute_force
+2025-07-01 15:07:31,982 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:39600 - Type: brute_force
+2025-07-01 15:07:32,793 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:39606 - Type: brute_force
+2025-07-01 15:07:33,803 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:39618 - Type: brute_force
+2025-07-01 15:07:34,563 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:35196 - Type: brute_force
+2025-07-01 15:07:35,405 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:35200 - Type: brute_force
+2025-07-01 15:07:35,966 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:35202 - Type: brute_force
+2025-07-01 15:07:37,829 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:35210 - Type: brute_force
+2025-07-01 15:07:39,509 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:35216 - Type: brute_force
+2025-07-01 15:07:40,656 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:35232 - Type: brute_force
+2025-07-01 15:07:42,591 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:35248 - Type: brute_force
+2025-07-01 15:07:43,445 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:35252 - Type: brute_force
+2025-07-01 15:07:45,277 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:54792 - Type: brute_force
+2025-07-01 15:07:46,086 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:54802 - Type: brute_force
+2025-07-01 15:07:47,233 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:54810 - Type: brute_force
+2025-07-01 15:07:47,986 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:54816 - Type: brute_force
+2025-07-01 15:07:49,349 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:54818 - Type: brute_force
+2025-07-01 15:07:50,337 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:54820 - Type: brute_force
+2025-07-01 15:07:51,106 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:54830 - Type: brute_force
+2025-07-01 15:07:53,066 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:54844 - Type: brute_force
+2025-07-01 15:07:56,580 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:52054 - Type: brute_force
+2025-07-01 15:07:59,223 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:52056 - Type: brute_force
+2025-07-01 15:07:59,917 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:07:59 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:08:01,188 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:52062 - Type: brute_force
+2025-07-01 15:08:03,351 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:52064 - Type: brute_force
+2025-07-01 15:08:05,420 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:37792 - Type: brute_force
+2025-07-01 15:08:07,424 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:37800 - Type: brute_force
+2025-07-01 15:08:11,122 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:08:11,122 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:08:11 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:08:11,230 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:08:11,231 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:08:11 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:08:11,340 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:08:11,340 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:08:11 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:08:11,449 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:08:11,450 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:08:11 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:08:11,557 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:08:11,557 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:08:11 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:08:11,665 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:08:11,666 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:08:11 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:08:11,773 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:08:11,774 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:08:11 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:08:11,881 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:08:11,881 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:08:11 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:08:11,990 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:08:11,990 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:08:11 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:08:12,100 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:08:12,101 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:08:12 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:08:29,964 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:08:29 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:09:00,000 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:09:00 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:09:30,036 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:09:30 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:10:00,085 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:10:00 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:10:30,127 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:10:30 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:11:00,180 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:11:00 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:11:30,227 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:11:30 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:12:00,305 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:12:00 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:12:30,376 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:12:30 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:13:00,445 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:13:00 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:13:30,490 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:13:30 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:14:00,534 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:14:00 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:14:30,607 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:14:30 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:15:00,656 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:15:00 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:15:30,713 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:15:30 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:16:00,803 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:16:00 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:16:30,875 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:16:30 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:17:00,934 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:17:00 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:18:26,469 - honeypot - INFO - Starting Honeypot honeypot-001
+2025-07-01 15:18:26,470 - honeypot - INFO - API endpoint: http://api:5000
+2025-07-01 15:18:26,470 - honeypot - INFO - Service ssh scheduled to start
+2025-07-01 15:18:26,471 - honeypot - INFO - Service http scheduled to start
+2025-07-01 15:18:26,471 - honeypot - INFO - Service telnet scheduled to start
+2025-07-01 15:18:26,473 - honeypot - INFO - SSH Honeypot started on port 22
+2025-07-01 15:18:26,473 - honeypot - INFO - HTTP Honeypot started on port 80
+2025-07-01 15:18:26,474 - honeypot - INFO - Telnet Honeypot started on port 23
+2025-07-01 15:18:30,352 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:18:30 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:19:00,414 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:19:00 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:19:04,389 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:19:04,390 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:04 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:19:05,717 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:19:05,718 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:05 +0000] "GET /admin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:19:06,651 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:19:06,652 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:06 +0000] "GET /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:19:07,541 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:19:07,542 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:07 +0000] "GET /wp-admin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:19:08,877 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:19:08,879 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:08 +0000] "GET /phpmyadmin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:19:10,127 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:19:10,128 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:10 +0000] "GET /.env HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:19:11,363 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:19:11,364 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:11 +0000] "GET /config.php HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:19:13,009 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:19:13,010 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:13 +0000] "GET /backup.sql HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:19:14,006 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:19:14,007 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:14 +0000] "GET /.git HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:19:15,491 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:19:15,492 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:15 +0000] "GET /api/v1/users HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:19:16,544 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:19:16,545 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:16 +0000] "GET /dashboard HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:19:18,251 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:19:18,252 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:18 +0000] "GET /cpanel HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:19:21,319 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:19:21,320 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:21 +0000] "GET /login?user='%20OR%20'1'='1 HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:19:21,339 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:19:21,340 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:21 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:19:23,084 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:19:23,086 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:23 +0000] "GET /login?user='%20OR%201=1-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:19:23,097 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:19:23,098 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:23 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:19:26,044 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:19:26,045 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:26 +0000] "GET /login?user=admin'%20AND%201=1 HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:19:26,057 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:19:26,060 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:26 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:19:28,023 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:19:28,024 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:28 +0000] "GET /login?user='%20UNION%20SELECT%20*%20FROM%20users-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:19:28,045 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:19:28,047 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:28 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:19:29,240 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:19:29,242 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:29 +0000] "GET /login?user=';%20DROP%20TABLE%20users;-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:19:29,254 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:19:29,255 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:29 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:19:30,478 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:19:30 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:19:33,112 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 15:19:33,113 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:33 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:19:35,083 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 15:19:35,085 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:35 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:19:36,369 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 15:19:36,370 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:36 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:19:38,200 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 15:19:38,201 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:38 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:19:39,687 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 15:19:39,688 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:39 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:19:43,604 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:19:43,605 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:43 +0000] "GET /etc/passwd HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:19:44,983 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:19:44,984 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:44 +0000] "GET /config.php HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:19:46,068 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:19:46,069 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:46 +0000] "GET /download?file=../../../etc/shadow HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:19:46,778 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:19:46,779 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:19:46 +0000] "GET /var/log/apache/access.log HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:19:49,735 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:43298 - Type: brute_force
+2025-07-01 15:19:50,773 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:43306 - Type: brute_force
+2025-07-01 15:19:52,505 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:43318 - Type: brute_force
+2025-07-01 15:19:53,762 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:43334 - Type: brute_force
+2025-07-01 15:19:55,300 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:52076 - Type: brute_force
+2025-07-01 15:19:56,491 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:52084 - Type: brute_force
+2025-07-01 15:19:58,198 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:52086 - Type: brute_force
+2025-07-01 15:20:00,025 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:52092 - Type: brute_force
+2025-07-01 15:20:00,575 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:20:00 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:20:00,897 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:52100 - Type: brute_force
+2025-07-01 15:20:01,558 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:52108 - Type: brute_force
+2025-07-01 15:20:02,136 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:52120 - Type: brute_force
+2025-07-01 15:20:03,175 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:52132 - Type: brute_force
+2025-07-01 15:20:04,992 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59296 - Type: brute_force
+2025-07-01 15:20:06,038 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59298 - Type: brute_force
+2025-07-01 15:20:07,936 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59300 - Type: brute_force
+2025-07-01 15:20:09,576 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59316 - Type: brute_force
+2025-07-01 15:20:11,555 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59318 - Type: brute_force
+2025-07-01 15:20:12,644 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59330 - Type: brute_force
+2025-07-01 15:20:14,439 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:39904 - Type: brute_force
+2025-07-01 15:20:16,104 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:39914 - Type: brute_force
+2025-07-01 15:20:17,927 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:39918 - Type: brute_force
+2025-07-01 15:20:18,789 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:39930 - Type: brute_force
+2025-07-01 15:20:19,507 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:39934 - Type: brute_force
+2025-07-01 15:20:20,354 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:39936 - Type: brute_force
+2025-07-01 15:20:21,318 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:39948 - Type: brute_force
+2025-07-01 15:20:22,547 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:39964 - Type: brute_force
+2025-07-01 15:20:24,120 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:54794 - Type: brute_force
+2025-07-01 15:20:24,651 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:54804 - Type: brute_force
+2025-07-01 15:20:25,347 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:54818 - Type: brute_force
+2025-07-01 15:20:26,184 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:54820 - Type: brute_force
+2025-07-01 15:20:27,072 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:54826 - Type: brute_force
+2025-07-01 15:20:27,737 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:54838 - Type: brute_force
+2025-07-01 15:20:28,971 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:54854 - Type: brute_force
+2025-07-01 15:20:29,565 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:54864 - Type: brute_force
+2025-07-01 15:20:30,349 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:54870 - Type: brute_force
+2025-07-01 15:20:30,627 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:20:30 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:20:31,893 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:54886 - Type: brute_force
+2025-07-01 15:20:35,491 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:53230 - Type: brute_force
+2025-07-01 15:20:38,388 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:53246 - Type: brute_force
+2025-07-01 15:20:40,574 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:53252 - Type: brute_force
+2025-07-01 15:20:42,535 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:53254 - Type: brute_force
+2025-07-01 15:20:43,582 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:53270 - Type: brute_force
+2025-07-01 15:20:45,476 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:39242 - Type: brute_force
+2025-07-01 15:20:50,186 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:20:50,187 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:20:50 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:20:50,294 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:20:50,295 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:20:50 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:20:50,400 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:20:50,400 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:20:50 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:20:50,508 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:20:50,509 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:20:50 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:20:50,618 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:20:50,618 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:20:50 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:20:50,725 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:20:50,725 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:20:50 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:20:50,835 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:20:50,836 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:20:50 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:20:50,946 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:20:50,947 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:20:50 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:20:51,057 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:20:51,058 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:20:51 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:20:51,166 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:20:51,167 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:20:51 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:21:00,677 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:21:00 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:21:30,761 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:21:30 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:22:00,825 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:22:00 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:22:34,476 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:22:34 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:23:04,543 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:23:04 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:23:34,597 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:23:34 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:24:01,572 - honeypot - INFO - Starting Honeypot honeypot-001
+2025-07-01 15:24:01,573 - honeypot - INFO - API endpoint: http://api:5000
+2025-07-01 15:24:01,573 - honeypot - INFO - Service ssh scheduled to start
+2025-07-01 15:24:01,573 - honeypot - INFO - Service http scheduled to start
+2025-07-01 15:24:01,574 - honeypot - INFO - Service telnet scheduled to start
+2025-07-01 15:24:01,575 - honeypot - INFO - SSH Honeypot started on port 22
+2025-07-01 15:24:01,575 - honeypot - INFO - HTTP Honeypot started on port 80
+2025-07-01 15:24:01,576 - honeypot - INFO - Telnet Honeypot started on port 23
+2025-07-01 15:24:05,617 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:24:05 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:24:35,660 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:24:35 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:25:05,715 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:25:05 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:25:35,768 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:25:35 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:26:05,840 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:26:05 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:26:35,910 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:26:35 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:26:51,822 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:26:51,823 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:26:51 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:26:53,440 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:26:53,441 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:26:53 +0000] "GET /admin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:26:55,050 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:26:55,051 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:26:55 +0000] "GET /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:26:56,217 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:26:56,217 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:26:56 +0000] "GET /wp-admin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:26:57,767 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:26:57,768 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:26:57 +0000] "GET /phpmyadmin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:26:58,406 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:26:58,407 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:26:58 +0000] "GET /.env HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:27:00,412 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:27:00,417 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:00 +0000] "GET /config.php HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:27:01,451 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:27:01,452 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:01 +0000] "GET /backup.sql HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:27:03,208 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:27:03,209 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:03 +0000] "GET /.git HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:27:04,002 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:27:04,002 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:03 +0000] "GET /api/v1/users HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:27:05,515 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:27:05,516 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:05 +0000] "GET /dashboard HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:27:05,957 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:27:05 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:27:06,212 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:27:06,213 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:06 +0000] "GET /cpanel HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:27:09,996 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:27:09,997 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:09 +0000] "GET /login?user='%20OR%20'1'='1 HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:27:10,007 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:27:10,008 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:10 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:27:11,051 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:27:11,052 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:11 +0000] "GET /login?user='%20OR%201=1-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:27:11,062 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:27:11,063 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:11 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:27:13,165 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:27:13,166 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:13 +0000] "GET /login?user=admin'%20AND%201=1 HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:27:13,178 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:27:13,180 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:13 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:27:15,896 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:27:15,897 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:15 +0000] "GET /login?user='%20UNION%20SELECT%20*%20FROM%20users-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:27:15,906 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:27:15,907 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:15 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:27:17,410 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:27:17,411 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:17 +0000] "GET /login?user=';%20DROP%20TABLE%20users;-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:27:17,422 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:27:17,423 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:17 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:27:21,811 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 15:27:21,812 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:21 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:27:23,422 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 15:27:23,423 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:23 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:27:24,510 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 15:27:24,511 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:24 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:27:26,261 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 15:27:26,262 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:26 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:27:27,290 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 15:27:27,290 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:27 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:27:30,455 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:27:30,456 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:30 +0000] "GET /etc/passwd HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:27:31,400 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 15:27:31,401 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:31 +0000] "GET /config.php HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 15:27:32,795 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:27:32,796 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:32 +0000] "GET /download?file=../../../etc/shadow HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:27:33,370 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:27:33,371 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:27:33 +0000] "GET /var/log/apache/access.log HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:27:36,016 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:27:36 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:27:36,563 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:58598 - Type: brute_force
+2025-07-01 15:27:37,825 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:56110 - Type: brute_force
+2025-07-01 15:27:39,485 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:56118 - Type: brute_force
+2025-07-01 15:27:40,687 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:56126 - Type: brute_force
+2025-07-01 15:27:41,832 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:56132 - Type: brute_force
+2025-07-01 15:27:43,110 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:56144 - Type: brute_force
+2025-07-01 15:27:44,758 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:56154 - Type: brute_force
+2025-07-01 15:27:46,251 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:56164 - Type: brute_force
+2025-07-01 15:27:48,065 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:44384 - Type: brute_force
+2025-07-01 15:27:49,186 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:44390 - Type: brute_force
+2025-07-01 15:27:50,110 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:44404 - Type: brute_force
+2025-07-01 15:27:51,816 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:44418 - Type: brute_force
+2025-07-01 15:27:53,788 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:44434 - Type: brute_force
+2025-07-01 15:27:54,658 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:44444 - Type: brute_force
+2025-07-01 15:27:55,780 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:44450 - Type: brute_force
+2025-07-01 15:27:57,456 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:44466 - Type: brute_force
+2025-07-01 15:27:58,898 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36536 - Type: brute_force
+2025-07-01 15:27:59,649 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36544 - Type: brute_force
+2025-07-01 15:28:00,298 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36558 - Type: brute_force
+2025-07-01 15:28:01,934 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36574 - Type: brute_force
+2025-07-01 15:28:03,609 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36588 - Type: brute_force
+2025-07-01 15:28:04,663 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36590 - Type: brute_force
+2025-07-01 15:28:06,086 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:28:06 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:28:06,466 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36592 - Type: brute_force
+2025-07-01 15:28:08,445 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59270 - Type: brute_force
+2025-07-01 15:28:08,964 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59276 - Type: brute_force
+2025-07-01 15:28:10,286 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59286 - Type: brute_force
+2025-07-01 15:28:11,904 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59292 - Type: brute_force
+2025-07-01 15:28:13,316 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59306 - Type: brute_force
+2025-07-01 15:28:14,373 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59310 - Type: brute_force
+2025-07-01 15:28:16,053 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59320 - Type: brute_force
+2025-07-01 15:28:17,870 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:46970 - Type: brute_force
+2025-07-01 15:28:18,768 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:46980 - Type: brute_force
+2025-07-01 15:28:19,971 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:46982 - Type: brute_force
+2025-07-01 15:28:20,920 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:46996 - Type: brute_force
+2025-07-01 15:28:22,118 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:47000 - Type: brute_force
+2025-07-01 15:28:23,034 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:47006 - Type: brute_force
+2025-07-01 15:28:26,315 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:56606 - Type: brute_force
+2025-07-01 15:28:29,123 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:57028 - Type: brute_force
+2025-07-01 15:28:30,554 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:57044 - Type: brute_force
+2025-07-01 15:28:32,373 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:57056 - Type: brute_force
+2025-07-01 15:28:33,681 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:57058 - Type: brute_force
+2025-07-01 15:28:36,139 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:28:36 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:28:36,515 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:57070 - Type: brute_force
+2025-07-01 15:28:39,714 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:28:39,715 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:28:39 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:28:39,816 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:28:39,818 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:28:39 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:28:39,924 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:28:39,925 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:28:39 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:28:40,033 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:28:40,034 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:28:40 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:28:40,140 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:28:40,141 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:28:40 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:28:40,253 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:28:40,255 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:28:40 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:28:40,359 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:28:40,361 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:28:40 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:28:40,471 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:28:40,472 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:28:40 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:28:40,573 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:28:40,574 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:28:40 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:28:40,680 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 15:28:40,681 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:15:28:40 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 15:29:06,194 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:29:06 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:29:36,249 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:29:36 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:30:06,308 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:30:06 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:30:36,365 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:30:36 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:31:06,427 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:31:06 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:31:36,488 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:31:36 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:32:06,548 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:32:06 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:32:36,604 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:32:36 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:33:06,671 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:33:06 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:33:36,725 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:33:36 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:34:06,780 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:34:06 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:34:36,838 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:34:36 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:35:06,899 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:35:06 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:35:36,956 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:35:36 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:36:07,007 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:36:07 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:36:37,078 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:36:37 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:37:07,134 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:37:07 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:37:37,189 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:37:37 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:38:07,241 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:38:07 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:38:37,312 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:38:37 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:39:07,364 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:39:07 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:39:37,439 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:39:37 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:40:07,488 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:40:07 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:40:37,554 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:40:37 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:41:07,612 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:41:07 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:41:37,690 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:41:37 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:42:07,747 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:42:07 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:42:37,951 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:42:37 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:43:08,020 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:43:08 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:43:38,210 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:43:38 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:44:08,263 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:44:08 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:44:38,480 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:44:38 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:45:08,550 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:45:08 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:45:38,738 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:45:38 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:46:08,796 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:46:08 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:46:38,997 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:46:38 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:47:09,057 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:47:09 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:47:39,255 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:47:39 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:48:09,343 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:48:09 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:48:39,547 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:48:39 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:49:09,602 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:49:09 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:49:39,784 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:49:39 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:50:09,839 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:50:09 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:50:40,085 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:50:40 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:51:10,159 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:51:10 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:51:40,367 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:51:40 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:52:10,443 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:52:10 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:52:40,657 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:52:40 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:53:10,715 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:53:10 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:53:40,918 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:53:40 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:54:10,977 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:54:10 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:54:41,194 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:54:41 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:55:11,254 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:55:11 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:55:41,456 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:55:41 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:56:11,519 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:56:11 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:56:41,711 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:56:41 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:57:11,773 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:57:11 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:57:42,029 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:57:42 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:58:12,128 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:58:12 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:58:42,346 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:58:42 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:59:12,401 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:59:12 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 15:59:42,474 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:15:59:42 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:00:12,534 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:00:12 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:00:42,724 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:00:42 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:01:12,795 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:01:12 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:01:43,046 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:01:43 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:01:51,883 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:01:51,885 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:01:51 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:01:53,491 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:01:53,493 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:01:53 +0000] "GET /admin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:01:54,466 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:01:54,467 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:01:54 +0000] "GET /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:01:55,894 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:01:55,896 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:01:55 +0000] "GET /wp-admin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:01:56,591 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:01:56,592 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:01:56 +0000] "GET /phpmyadmin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:01:58,343 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:01:58,344 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:01:58 +0000] "GET /.env HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:02:00,179 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:02:00,180 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:00 +0000] "GET /config.php HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:02:01,139 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:02:01,140 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:01 +0000] "GET /backup.sql HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:02:02,561 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:02:02,562 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:02 +0000] "GET /.git HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:02:03,558 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:02:03,559 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:03 +0000] "GET /api/v1/users HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:02:04,980 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:02:04,981 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:04 +0000] "GET /dashboard HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:02:06,592 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:02:06,593 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:06 +0000] "GET /cpanel HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:02:09,550 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:02:09,551 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:09 +0000] "GET /login?user='%20OR%20'1'='1 HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:02:09,560 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:02:09,560 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:09 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:02:11,538 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:02:11,539 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:11 +0000] "GET /login?user='%20OR%201=1-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:02:11,546 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:02:11,547 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:11 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:02:13,124 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:02:13 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:02:13,902 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:02:13,903 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:13 +0000] "GET /login?user=admin'%20AND%201=1 HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:02:13,917 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:02:13,917 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:13 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:02:16,206 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:02:16,207 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:16 +0000] "GET /login?user='%20UNION%20SELECT%20*%20FROM%20users-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:02:16,223 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:02:16,225 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:16 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:02:18,294 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:02:18,295 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:18 +0000] "GET /login?user=';%20DROP%20TABLE%20users;-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:02:18,305 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:02:18,306 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:18 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:02:22,239 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 16:02:22,240 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:22 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:02:24,024 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 16:02:24,025 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:24 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:02:25,383 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 16:02:25,384 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:25 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:02:27,152 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 16:02:27,153 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:27 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:02:28,204 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 16:02:28,205 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:28 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:02:31,830 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:02:31,830 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:31 +0000] "GET /etc/passwd HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:02:32,927 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:02:32,928 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:32 +0000] "GET /config.php HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:02:33,652 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:02:33,653 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:33 +0000] "GET /download?file=../../../etc/shadow HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:02:34,444 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:02:34,445 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:02:34 +0000] "GET /var/log/apache/access.log HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:02:37,863 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:40838 - Type: brute_force
+2025-07-01 16:02:38,698 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:40854 - Type: brute_force
+2025-07-01 16:02:39,596 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:40868 - Type: brute_force
+2025-07-01 16:02:40,245 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:40876 - Type: brute_force
+2025-07-01 16:02:42,064 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:40888 - Type: brute_force
+2025-07-01 16:02:43,135 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:40904 - Type: brute_force
+2025-07-01 16:02:43,385 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:02:43 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:02:44,091 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:40918 - Type: brute_force
+2025-07-01 16:02:44,996 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:40928 - Type: brute_force
+2025-07-01 16:02:45,980 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:40934 - Type: brute_force
+2025-07-01 16:02:46,691 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:40948 - Type: brute_force
+2025-07-01 16:02:48,299 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36872 - Type: brute_force
+2025-07-01 16:02:48,876 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36882 - Type: brute_force
+2025-07-01 16:02:49,997 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36892 - Type: brute_force
+2025-07-01 16:02:51,051 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36902 - Type: brute_force
+2025-07-01 16:02:52,379 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36906 - Type: brute_force
+2025-07-01 16:02:53,140 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36918 - Type: brute_force
+2025-07-01 16:02:54,278 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36930 - Type: brute_force
+2025-07-01 16:02:55,133 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36942 - Type: brute_force
+2025-07-01 16:02:55,720 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:36948 - Type: brute_force
+2025-07-01 16:02:57,365 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59610 - Type: brute_force
+2025-07-01 16:02:58,408 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59626 - Type: brute_force
+2025-07-01 16:02:59,400 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59638 - Type: brute_force
+2025-07-01 16:03:01,156 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59652 - Type: brute_force
+2025-07-01 16:03:02,953 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59664 - Type: brute_force
+2025-07-01 16:03:04,337 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59680 - Type: brute_force
+2025-07-01 16:03:06,063 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59694 - Type: brute_force
+2025-07-01 16:03:06,695 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59710 - Type: brute_force
+2025-07-01 16:03:08,190 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:46470 - Type: brute_force
+2025-07-01 16:03:09,667 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:46486 - Type: brute_force
+2025-07-01 16:03:11,574 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:46490 - Type: brute_force
+2025-07-01 16:03:13,449 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:03:13 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:03:13,553 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:46494 - Type: brute_force
+2025-07-01 16:03:15,386 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:46506 - Type: brute_force
+2025-07-01 16:03:16,674 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:46522 - Type: brute_force
+2025-07-01 16:03:18,595 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:34810 - Type: brute_force
+2025-07-01 16:03:19,698 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:34820 - Type: brute_force
+2025-07-01 16:03:20,929 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:34834 - Type: brute_force
+2025-07-01 16:03:23,569 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:41476 - Type: brute_force
+2025-07-01 16:03:25,517 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:41484 - Type: brute_force
+2025-07-01 16:03:27,526 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:48622 - Type: brute_force
+2025-07-01 16:03:29,997 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:48634 - Type: brute_force
+2025-07-01 16:03:31,322 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:48638 - Type: brute_force
+2025-07-01 16:03:34,314 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:48652 - Type: brute_force
+2025-07-01 16:03:38,342 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:03:38,343 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:03:38 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:03:38,446 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:03:38,447 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:03:38 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:03:38,583 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:03:38,584 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:03:38 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:03:38,666 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:03:38,667 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:03:38 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:03:38,774 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:03:38,775 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:03:38 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:03:38,887 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:03:38,888 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:03:38 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:03:38,998 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:03:39,000 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:03:38 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:03:39,103 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:03:39,104 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:03:39 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:03:39,210 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:03:39,211 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:03:39 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:03:39,322 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:03:39,323 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:03:39 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:03:43,648 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:03:43 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:04:13,712 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:04:13 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:04:47,241 - honeypot - INFO - Starting Honeypot honeypot-001
+2025-07-01 16:04:47,242 - honeypot - INFO - API endpoint: http://api:5000
+2025-07-01 16:04:47,243 - honeypot - INFO - Service ssh scheduled to start
+2025-07-01 16:04:47,243 - honeypot - INFO - Service http scheduled to start
+2025-07-01 16:04:47,244 - honeypot - INFO - Service telnet scheduled to start
+2025-07-01 16:04:47,246 - honeypot - INFO - SSH Honeypot started on port 22
+2025-07-01 16:04:47,246 - honeypot - INFO - HTTP Honeypot started on port 80
+2025-07-01 16:04:47,247 - honeypot - INFO - Telnet Honeypot started on port 23
+2025-07-01 16:04:50,867 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:04:50 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:05:20,941 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:05:20 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:05:50,994 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:05:50 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:06:21,058 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:06:21 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:06:43,238 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:06:43,239 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:06:43 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:06:45,169 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:06:45,170 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:06:45 +0000] "GET /admin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:06:46,385 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:06:46,386 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:06:46 +0000] "GET /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:06:47,843 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:06:47,843 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:06:47 +0000] "GET /wp-admin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:06:48,554 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:06:48,555 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:06:48 +0000] "GET /phpmyadmin HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:06:49,249 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:06:49,250 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:06:49 +0000] "GET /.env HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:06:51,098 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:06:51,099 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:06:51 +0000] "GET /config.php HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:06:51,118 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:06:51 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:06:52,785 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:06:52,786 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:06:52 +0000] "GET /backup.sql HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:06:54,585 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:06:54,586 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:06:54 +0000] "GET /.git HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:06:55,571 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:06:55,573 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:06:55 +0000] "GET /api/v1/users HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:06:56,377 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:06:56,378 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:06:56 +0000] "GET /dashboard HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:06:58,396 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:06:58,397 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:06:58 +0000] "GET /cpanel HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:07:01,578 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:07:01,579 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:07:01 +0000] "GET /login?user='%20OR%20'1'='1 HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:07:01,591 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:07:01,592 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:07:01 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:07:03,160 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:07:03,161 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:07:03 +0000] "GET /login?user='%20OR%201=1-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:07:03,170 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:07:03,171 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:07:03 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:07:05,624 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:07:05,625 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:07:05 +0000] "GET /login?user=admin'%20AND%201=1 HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:07:05,637 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:07:05,638 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:07:05 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:07:06,973 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:07:06,974 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:07:06 +0000] "GET /login?user='%20UNION%20SELECT%20*%20FROM%20users-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:07:06,983 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:07:06,984 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:07:06 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:07:09,756 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:07:09,757 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:07:09 +0000] "GET /login?user=';%20DROP%20TABLE%20users;-- HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:07:09,766 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:07:09,767 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:07:09 +0000] "POST /login HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:07:13,788 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 16:07:13,789 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:07:13 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:07:15,747 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 16:07:15,750 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:07:15 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:07:17,066 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 16:07:17,067 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:07:17 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:07:18,807 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 16:07:18,808 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:07:18 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:07:20,804 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: command_injection
+2025-07-01 16:07:20,806 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:07:20 +0000] "POST /execute HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:07:21,184 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:07:21 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:07:24,392 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:07:24,392 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:07:24 +0000] "GET /etc/passwd HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:07:25,281 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: unauthorized_access
+2025-07-01 16:07:25,283 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:07:25 +0000] "GET /config.php HTTP/1.1" 401 212 "-" "python-requests/2.31.0"
+2025-07-01 16:07:26,545 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:07:26,546 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:07:26 +0000] "GET /download?file=../../../etc/shadow HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:07:27,132 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:07:27,133 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:07:27 +0000] "GET /var/log/apache/access.log HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:07:30,361 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:60670 - Type: brute_force
+2025-07-01 16:07:32,138 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:60682 - Type: brute_force
+2025-07-01 16:07:33,271 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:60686 - Type: brute_force
+2025-07-01 16:07:34,835 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:60692 - Type: brute_force
+2025-07-01 16:07:35,515 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:60696 - Type: brute_force
+2025-07-01 16:07:36,431 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:60700 - Type: brute_force
+2025-07-01 16:07:38,303 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:34110 - Type: brute_force
+2025-07-01 16:07:39,001 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:34126 - Type: brute_force
+2025-07-01 16:07:39,859 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:34136 - Type: brute_force
+2025-07-01 16:07:40,683 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:34140 - Type: brute_force
+2025-07-01 16:07:41,773 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:34150 - Type: brute_force
+2025-07-01 16:07:42,944 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:34156 - Type: brute_force
+2025-07-01 16:07:44,773 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:34166 - Type: brute_force
+2025-07-01 16:07:45,679 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:34178 - Type: brute_force
+2025-07-01 16:07:46,444 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:34186 - Type: brute_force
+2025-07-01 16:07:47,139 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:34196 - Type: brute_force
+2025-07-01 16:07:48,909 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:40386 - Type: brute_force
+2025-07-01 16:07:49,854 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:40396 - Type: brute_force
+2025-07-01 16:07:50,777 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:40398 - Type: brute_force
+2025-07-01 16:07:51,236 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:07:51 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:07:52,714 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:40406 - Type: brute_force
+2025-07-01 16:07:53,337 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:40416 - Type: brute_force
+2025-07-01 16:07:54,096 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:40422 - Type: brute_force
+2025-07-01 16:07:55,555 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:40438 - Type: brute_force
+2025-07-01 16:07:57,524 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:58958 - Type: brute_force
+2025-07-01 16:07:58,563 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:58968 - Type: brute_force
+2025-07-01 16:07:59,681 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:58970 - Type: brute_force
+2025-07-01 16:08:00,383 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:58986 - Type: brute_force
+2025-07-01 16:08:01,044 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59002 - Type: brute_force
+2025-07-01 16:08:01,905 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59016 - Type: brute_force
+2025-07-01 16:08:02,749 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59020 - Type: brute_force
+2025-07-01 16:08:04,177 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59030 - Type: brute_force
+2025-07-01 16:08:05,142 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59032 - Type: brute_force
+2025-07-01 16:08:06,890 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59040 - Type: brute_force
+2025-07-01 16:08:08,161 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59038 - Type: brute_force
+2025-07-01 16:08:09,677 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59042 - Type: brute_force
+2025-07-01 16:08:10,705 - honeypot - INFO - [ssh] Attack detected from 172.19.0.1:59048 - Type: brute_force
+2025-07-01 16:08:13,259 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:58626 - Type: brute_force
+2025-07-01 16:08:15,526 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:58640 - Type: brute_force
+2025-07-01 16:08:17,418 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:41268 - Type: brute_force
+2025-07-01 16:08:18,831 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:41276 - Type: brute_force
+2025-07-01 16:08:21,216 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:41282 - Type: brute_force
+2025-07-01 16:08:21,329 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:08:21 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:08:24,143 - honeypot - INFO - [telnet] Attack detected from 172.19.0.1:41294 - Type: brute_force
+2025-07-01 16:08:27,865 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:08:27,866 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:08:27 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:08:27,974 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:08:27,975 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:08:27 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:08:28,088 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:08:28,089 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:08:28 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:08:28,194 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:08:28,196 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:08:28 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:08:28,305 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:08:28,306 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:08:28 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:08:28,414 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:08:28,415 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:08:28 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:08:28,521 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:08:28,522 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:08:28 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:08:28,630 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:08:28,631 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:08:28 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:08:28,737 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:08:28,738 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:08:28 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:08:28,844 - honeypot - INFO - [http] Attack detected from 172.19.0.1:0 - Type: reconnaissance
+2025-07-01 16:08:28,845 - aiohttp.access - INFO - 172.19.0.1 [01/Jul/2025:16:08:28 +0000] "GET / HTTP/1.1" 404 206 "-" "python-requests/2.31.0"
+2025-07-01 16:08:51,405 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:08:51 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:09:21,456 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:09:21 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:09:51,510 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:09:51 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:10:21,563 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:10:21 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:10:51,606 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:10:51 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:11:21,643 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:11:21 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:11:27,866 - honeypot - INFO - Starting Honeypot honeypot-001
+2025-07-01 16:11:27,866 - honeypot - INFO - API endpoint: http://api:5000
+2025-07-01 16:11:27,867 - honeypot - INFO - Service ssh scheduled to start
+2025-07-01 16:11:27,867 - honeypot - INFO - Service http scheduled to start
+2025-07-01 16:11:27,868 - honeypot - INFO - Service telnet scheduled to start
+2025-07-01 16:11:27,869 - honeypot - INFO - SSH Honeypot started on port 22
+2025-07-01 16:11:27,869 - honeypot - INFO - HTTP Honeypot started on port 80
+2025-07-01 16:11:27,869 - honeypot - INFO - Telnet Honeypot started on port 23
+2025-07-01 16:11:32,129 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:11:32 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:12:02,179 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:12:02 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:12:32,219 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:12:32 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
+2025-07-01 16:13:02,269 - aiohttp.access - INFO - 127.0.0.1 [01/Jul/2025:16:13:02 +0000] "GET /health HTTP/1.1" 200 153 "-" "curl/7.74.0"
