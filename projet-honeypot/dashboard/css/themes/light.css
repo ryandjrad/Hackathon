@@ -1,0 +1,282 @@
+/**
+ * Thème Clair pour le Dashboard Honeypot
+ * Alternative lumineuse pour utilisation en journée
+ */
+
+[data-theme="light"] {
+    /* Arrière-plans */
+    --bg-primary: #f8fafc;
+    --bg-secondary: #ffffff;
+    --bg-card: #ffffff;
+    --bg-hover: rgba(0, 123, 255, 0.05);
+    --bg-modal: rgba(248, 250, 252, 0.95);
+    
+    /* Texte */
+    --text-primary: #1e293b;
+    --text-secondary: #475569;
+    --text-muted: #94a3b8;
+    --text-inverse: #ffffff;
+    
+    /* Accents */
+    --accent-primary: #0069d9;
+    --accent-secondary: #e91e63;
+    --accent-tertiary: #5e72e4;
+    
+    /* États */
+    --success: #28a745;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --info: #17a2b8;
+    
+    /* Bordures */
+    --border-color: #e2e8f0;
+    --border-hover: #cbd5e1;
+    --border-focus: #0069d9;
+    
+    /* Ombres */
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+    --shadow-glow: 0 0 20px rgba(0, 105, 217, 0.2);
+    
+    /* Graphiques */
+    --chart-grid: rgba(0, 0, 0, 0.1);
+    --chart-text: #475569;
+    
+    /* Code */
+    --code-bg: #f6f8fa;
+    --code-text: #24292e;
+    --code-keyword: #d73a49;
+    --code-string: #032f62;
+    --code-comment: #6a737d;
+    
+    /* Scrollbar */
+    --scrollbar-bg: #f1f5f9;
+    --scrollbar-thumb: #cbd5e1;
+    --scrollbar-thumb-hover: #94a3b8;
+}
+
+/* Styles spécifiques au thème clair */
+[data-theme="light"] body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+/* Overlay clair pour les modals */
+[data-theme="light"] .modal-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+/* Cards avec ombres douces */
+[data-theme="light"] .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+}
+
+[data-theme="light"] .card:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--border-hover);
+}
+
+/* Header avec fond blanc */
+[data-theme="light"] .header {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+}
+
+/* Adaptation du logo pour le thème clair */
+[data-theme="light"] .header-brand h1 {
+    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Inputs et formulaires */
+[data-theme="light"] .form-control {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+}
+
+[data-theme="light"] .form-control:focus {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 3px rgba(0, 105, 217, 0.15);
+}
+
+/* Tables */
+[data-theme="light"] .table th {
+    background: #f8fafc;
+    color: var(--text-secondary);
+    border-bottom: 2px solid var(--border-color);
+}
+
+[data-theme="light"] .table td {
+    border-bottom: 1px solid var(--border-color);
+}
+
+[data-theme="light"] .table tr:hover {
+    background: var(--bg-hover);
+}
+
+/* Badges adaptés */
+[data-theme="light"] .badge-success {
+    background: rgba(40, 167, 69, 0.1);
+    color: var(--success);
+    border: 1px solid rgba(40, 167, 69, 0.2);
+}
+
+[data-theme="light"] .badge-danger {
+    background: rgba(220, 53, 69, 0.1);
+    color: var(--danger);
+    border: 1px solid rgba(220, 53, 69, 0.2);
+}
+
+[data-theme="light"] .badge-warning {
+    background: rgba(255, 193, 7, 0.1);
+    color: #856404;
+    border: 1px solid rgba(255, 193, 7, 0.2);
+}
+
+/* Boutons adaptés */
+[data-theme="light"] .btn-primary {
+    background: var(--accent-primary);
+    color: white;
+    box-shadow: var(--shadow-sm);
+}
+
+[data-theme="light"] .btn-primary:hover {
+    background: #0056b3;
+    box-shadow: var(--shadow-md);
+}
+
+[data-theme="light"] .btn-secondary {
+    background: white;
+    color: var(--accent-primary);
+    border: 1px solid var(--border-color);
+}
+
+/* Notifications */
+[data-theme="light"] .notification {
+    background: white;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-lg);
+}
+
+[data-theme="light"] .notification.success {
+    border-left: 4px solid var(--success);
+    background: rgba(40, 167, 69, 0.05);
+}
+
+[data-theme="light"] .notification.error {
+    border-left: 4px solid var(--danger);
+    background: rgba(220, 53, 69, 0.05);
+}
+
+/* Graphiques Chart.js */
+[data-theme="light"] .chart-container {
+    background: white;
+    border: 1px solid var(--border-color);
+}
+
+/* Map Leaflet */
+[data-theme="light"] .leaflet-container {
+    background: #f0f0f0;
+}
+
+[data-theme="light"] .leaflet-control {
+    background: white;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+}
+
+/* Code blocks */
+[data-theme="light"] pre,
+[data-theme="light"] code {
+    background: var(--code-bg);
+    color: var(--code-text);
+    border: 1px solid var(--border-color);
+}
+
+/* Stats cards */
+[data-theme="light"] .stat-card {
+    border: 1px solid var(--border-color);
+    background: white;
+}
+
+[data-theme="light"] .stat-value {
+    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Live feed */
+[data-theme="light"] .feed-item {
+    border-bottom: 1px solid var(--border-color);
+}
+
+[data-theme="light"] .feed-item:hover {
+    background: var(--bg-hover);
+}
+
+[data-theme="light"] .feed-item.critical {
+    background: rgba(220, 53, 69, 0.05);
+    border-left: 3px solid var(--danger);
+}
+
+/* Connection status */
+[data-theme="light"] .connection-status.online {
+    background: rgba(40, 167, 69, 0.1);
+    color: var(--success);
+}
+
+[data-theme="light"] .connection-status.offline {
+    background: rgba(220, 53, 69, 0.1);
+    color: var(--danger);
+}
+
+/* Loading states */
+[data-theme="light"] .skeleton-loader {
+    background: linear-gradient(
+        90deg,
+        #f0f0f0 25%,
+        #e0e0e0 50%,
+        #f0f0f0 75%
+    );
+}
+
+/* Tooltips */
+[data-theme="light"] .tooltip {
+    background: var(--text-primary);
+    color: white;
+    box-shadow: var(--shadow-md);
+}
+
+/* Amélioration du contraste */
+[data-theme="light"] .text-high-contrast {
+    color: #000000;
+    font-weight: 500;
+}
+
+/* Icônes colorées */
+[data-theme="light"] .icon-primary {
+    color: var(--accent-primary);
+}
+
+[data-theme="light"] .icon-danger {
+    color: var(--danger);
+}
+
+[data-theme="light"] .icon-success {
+    color: var(--success);
+}
+
+/* Ajustements pour une meilleure lisibilité en plein soleil */
+[data-theme="light"] .outdoor-mode {
+    filter: contrast(1.1) brightness(1.05);
+}
