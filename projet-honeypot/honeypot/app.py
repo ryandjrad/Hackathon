@@ -43,12 +43,8 @@ class AttackLogger:
                         attack_type: str, payload: Dict[str, Any]):
         """Enregistre une attaque et l'envoie à l'API"""
         
-        # Ignorer les healthchecks internes
-        if attacker_ip == "127.0.0.1" and payload.get('path') == '/health':
-            return None
-        
         attack_data = {
-            'timestamp': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%S'),  # Format sans microsecondes
+            'timestamp': datetime.utcnow().isoformat(),
             'honeypot_id': HONEYPOT_ID,
             'service': service,
             'attacker_ip': attacker_ip,
@@ -78,18 +74,9 @@ class AttackLogger:
             'port_scan': 3,
             'malware_upload': 9,
             'dos_attempt': 6,
-            'unauthorized_access': 4,
-            'path_traversal': 6
+            'unauthorized_access': 4
         }
-        
-        # Augmenter le score pour certains patterns
-        score = risk_scores.get(attack_type, 5)
-        
-        # Détection SQL injection dans les payloads
-        if payload.get('query') and any(sql in str(payload.get('query', '')).lower() for sql in ['union', 'select', 'drop']):
-            score = max(score, 7)
-            
-        return min(score, 10)
+        return risk_scores.get(attack_type, 5)
     
     async def _send_to_api(self, attack_data: Dict[str, Any]):
         """Envoie les données d'attaque à l'API"""
@@ -104,10 +91,6 @@ class AttackLogger:
                         logger.debug("Attack data sent to API successfully")
                     else:
                         logger.warning(f"API returned status {response.status}")
-                        text = await response.text()
-                        logger.warning(f"API response: {text}")
-        except aiohttp.ClientError as e:
-            logger.error(f"Failed to send to API (network error): {e}")
         except Exception as e:
             logger.error(f"Failed to send to API: {e}")
 
@@ -197,21 +180,14 @@ class HTTPHoneypot:
         
         # Détection du type d'attaque
         attack_type = 'reconnaissance'
-        query_string = str(request.query_string).lower()
-        
         if path in self.fake_paths:
             attack_type = 'unauthorized_access'
-        elif 'union' in query_string or 'select' in query_string:
+        elif 'union' in str(request.url).lower() or 'select' in str(request.url).lower():
             attack_type = 'sql_injection'
         elif '../' in path:
             attack_type = 'path_traversal'
-        elif request.method == 'POST':
-            try:
-                post_data = await request.text()
-                if 'cmd=' in post_data:
-                    attack_type = 'command_injection'
-            except:
-                pass
+        elif request.method == 'POST' and 'cmd=' in await request.text():
+            attack_type = 'command_injection'
         
         # Logger l'attaque
         await self.attack_logger.log_attack(
